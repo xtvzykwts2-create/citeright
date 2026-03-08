@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CiteRight</title>
+</head>
+
+<body>
+
+<h1>CiteRight Citation Generator</h1>
+
+<p>Enter your source information below:</p>
+
+<input placeholder="Author name"><br><br>
+<input placeholder="Title of source"><br><br>
+<input placeholder="Year"><br><br>
+
+<button onclick="generateCitation()">Generate Citation</button>
+
+<p id="result"></p>
+
+<script>
+function generateCitation() {
+  document.getElementById("result").innerText =
+  "Citation generated! (Example) Author. Title. Year.";
+}
+</script>
+
+</body>
+</html>
